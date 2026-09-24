@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Patrick+Hand&display=swap');
+
+:root {
+  --board: #2d4a3e;
+  --panel: rgba(255,255,255,0.06);
+  --cream: #f4f7f2;
+  --cream-dim: rgba(244,247,242,0.72);
+  --border: rgba(244,247,242,0.25);
+  --yellow: #f6e9a8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--board);
+  color: var(--cream);
+  font-family: 'Patrick Hand', system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  font-size: 44px;
+  color: var(--yellow);
+  margin: 0 0 4px;
+}
+
+.subtitle {
+  color: var(--cream-dim);
+  font-size: 16px;
+  margin: 0 0 32px;
+}
+
+h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--yellow);
+  margin: 36px 0 10px;
+}
+
+p, li { color: var(--cream); }
+
+ul { padding-left: 22px; }
+
+a { color: var(--yellow); }
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin: 18px 0;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: var(--cream-dim);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  color: var(--cream-dim);
+  font-size: 14px;
+}
